@@ -3,7 +3,7 @@ workflows:
       name: ios_swiftly
       environment:
         vars:
-          XCODE_WORKSPACE: "swiftly.xcworkspace" # <-- Put the name of your workspace here. 
+          XCODE_WORKSPACE: "swiftly" # <-- Put the name of your workspace here. 
           XCODE_SCHEME: "swiftly" # <-- Put the name of your scheme here.
           # Set up env vars for manual codesigning (See - https://docs.codemagic.io/code-signing-yaml/signing-ios/)
         xcode: latest
